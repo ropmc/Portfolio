@@ -35,7 +35,7 @@ let mixer;
 let video = {}
     //Declaring the video
     video['tst'] = document.createElement("video");
-    video['tst'].src = '/CLipChamps.mp4';
+    video['tst'].src = '/videos/CLipChamps.mp4';
     video['tst'].muted = true;
     video['tst'].playsInline = true;
     video['tst'].autoplay = true;
