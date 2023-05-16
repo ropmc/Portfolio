@@ -281,6 +281,13 @@
   padding: 0 15px;
 }
 
+.text-block-3-copy {
+  text-align: left;
+  flex: 1;
+  margin-top: 0;
+  padding: 0 15px;
+}
+
 .text-block-4 {
   justify-content: center;
   align-items: center;
@@ -728,13 +735,13 @@
 
   .div-block-13 {
     width: 100%;
-    height: 900vh;
+    height: 850vh;
     border: 1px solid rgba(0, 0, 0, 0);
     margin-left: 0%;
   }
 
   .div-block-3-copy {
-    height: 300vh;
+    height: 250vh;
     flex-direction: row;
     display: flex;
   }
@@ -773,6 +780,11 @@
 
   .text-block-3 {
     font-size: 16px;
+  }
+
+  .text-block-3-copy {
+    font-size: 16px;
+    margin-bottom: 80px;
   }
 
   .div-block-22 {
