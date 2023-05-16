@@ -268,8 +268,8 @@
 }
 
 .div-block-21 {
-  width: 325px;
   height: 614px;
+  width: 325px;
   /*background-color: #8e4242;*/
   padding-left: 0;
 }
@@ -757,12 +757,14 @@
     padding-left: 0;
     background-image: url('../images/Nike2.jpg');
     background-size: cover;
-    height: 430px;
+    height:430px;
+    width: 300px;
   }
 
   .div-block-21 {
     /*background-color: #8e4242;*/
     height:430px;
+    width: 300px;
     flex-direction: column;
     display: flex;
     background-image: url('../images/Heineken.jpeg');
