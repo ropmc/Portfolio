@@ -70,7 +70,7 @@ loader2.load(
     // add the model to the scene
     scene2.add(gltf2.scene);
 
-    console.log(gltf2.scene);
+    /*console.log(gltf2.scene);*/
 
 
     const videoTexture = new THREE.VideoTexture(video['tst']);
@@ -128,14 +128,14 @@ loader2.load(
 
     actions.forEach(action => action.play());
   },
-  (xhr) => {
+  /*(xhr) => {
     // called while loading is progressing
     console.log(`${(xhr.loaded / xhr.total * 100)}% loaded`);
   },
   (error) => {
     // called when loading has errors
     console.error(error);
-  }
+  }*/
 );
 
 // Animate the cube rotation

@@ -696,6 +696,12 @@
   text-align: left;
 }
 
+.anchor-mobile{
+  pointer-events: none;
+  color:#000;
+  text-decoration: none;
+}
+
 /*@media screen and (max-width: 991px) {
   .div-block-15 {
     padding-left: 20px;
@@ -716,6 +722,12 @@
     flex-direction: column;
   }
 
+  .anchor-mobile{
+    pointer-events:all;
+    color: #190b50;
+    text-decoration:underline;
+  }
+
   .div-block-5 {
     width: 200px;
     height: 200px;
@@ -729,7 +741,7 @@
   }
 
   .navbar-2 {
-    z-index: 2;
+    z-index: 10;
     width: 100%;
   }
 

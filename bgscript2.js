@@ -61,14 +61,14 @@ loader2.load(
 
     actions.forEach(action => action.play());
   },
-  (xhr) => {
+  /*(xhr) => {
     // called while loading is progressing
     console.log(`${(xhr.loaded / xhr.total * 100)}% loaded`);
   },
   (error) => {
     // called when loading has errors
     console.error(error);
-  }
+  }*/
 );
 
 // Animate the cube rotation
